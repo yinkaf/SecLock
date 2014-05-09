@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22599595191D1658006419DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22599594191D1658006419DE /* Foundation.framework */; };
+		22599597191D1658006419DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22599596191D1658006419DE /* CoreGraphics.framework */; };
+		22599599191D1658006419DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22599598191D1658006419DE /* UIKit.framework */; };
+		2259959F191D1658006419DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2259959D191D1658006419DE /* InfoPlist.strings */; };
+		225995A1191D1658006419DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 225995A0191D1658006419DE /* main.m */; };
+		225995A5191D1658006419DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 225995A4191D1658006419DE /* AppDelegate.m */; };
+		225995A8191D1658006419DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225995A6191D1658006419DE /* Main.storyboard */; };
+		225995AB191D1658006419DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225995AA191D1658006419DE /* ViewController.m */; };
+		225995AD191D1658006419DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225995AC191D1658006419DE /* Images.xcassets */; };
+		225995B4191D1658006419DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225995B3191D1658006419DE /* XCTest.framework */; };
+		225995B5191D1658006419DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22599594191D1658006419DE /* Foundation.framework */; };
+		225995B6191D1658006419DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22599598191D1658006419DE /* UIKit.framework */; };
+		225995BE191D1658006419DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225995BC191D1658006419DE /* InfoPlist.strings */; };
+		225995C0191D1658006419DE /* SecLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 225995BF191D1658006419DE /* SecLockTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		225995B7191D1658006419DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22599589191D1658006419DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22599590191D1658006419DE;
+			remoteInfo = SecLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22599591191D1658006419DE /* SecLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22599594191D1658006419DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22599596191D1658006419DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22599598191D1658006419DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2259959C191D1658006419DE /* SecLock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecLock-Info.plist"; sourceTree = "<group>"; };
+		2259959E191D1658006419DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		225995A0191D1658006419DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		225995A2191D1658006419DE /* SecLock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecLock-Prefix.pch"; sourceTree = "<group>"; };
+		225995A3191D1658006419DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		225995A4191D1658006419DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		225995A7191D1658006419DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		225995A9191D1658006419DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		225995AA191D1658006419DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		225995AC191D1658006419DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		225995B2191D1658006419DE /* SecLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		225995B3191D1658006419DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		225995BB191D1658006419DE /* SecLockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecLockTests-Info.plist"; sourceTree = "<group>"; };
+		225995BD191D1658006419DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		225995BF191D1658006419DE /* SecLockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecLockTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2259958E191D1658006419DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22599597191D1658006419DE /* CoreGraphics.framework in Frameworks */,
+				22599599191D1658006419DE /* UIKit.framework in Frameworks */,
+				22599595191D1658006419DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		225995AF191D1658006419DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225995B4191D1658006419DE /* XCTest.framework in Frameworks */,
+				225995B6191D1658006419DE /* UIKit.framework in Frameworks */,
+				225995B5191D1658006419DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22599588191D1658006419DE = {
+			isa = PBXGroup;
+			children = (
+				2259959A191D1658006419DE /* SecLock */,
+				225995B9191D1658006419DE /* SecLockTests */,
+				22599593191D1658006419DE /* Frameworks */,
+				22599592191D1658006419DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22599592191D1658006419DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22599591191D1658006419DE /* SecLock.app */,
+				225995B2191D1658006419DE /* SecLockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22599593191D1658006419DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22599594191D1658006419DE /* Foundation.framework */,
+				22599596191D1658006419DE /* CoreGraphics.framework */,
+				22599598191D1658006419DE /* UIKit.framework */,
+				225995B3191D1658006419DE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2259959A191D1658006419DE /* SecLock */ = {
+			isa = PBXGroup;
+			children = (
+				225995A3191D1658006419DE /* AppDelegate.h */,
+				225995A4191D1658006419DE /* AppDelegate.m */,
+				225995A6191D1658006419DE /* Main.storyboard */,
+				225995A9191D1658006419DE /* ViewController.h */,
+				225995AA191D1658006419DE /* ViewController.m */,
+				225995AC191D1658006419DE /* Images.xcassets */,
+				2259959B191D1658006419DE /* Supporting Files */,
+			);
+			path = SecLock;
+			sourceTree = "<group>";
+		};
+		2259959B191D1658006419DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2259959C191D1658006419DE /* SecLock-Info.plist */,
+				2259959D191D1658006419DE /* InfoPlist.strings */,
+				225995A0191D1658006419DE /* main.m */,
+				225995A2191D1658006419DE /* SecLock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		225995B9191D1658006419DE /* SecLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				225995BF191D1658006419DE /* SecLockTests.m */,
+				225995BA191D1658006419DE /* Supporting Files */,
+			);
+			path = SecLockTests;
+			sourceTree = "<group>";
+		};
+		225995BA191D1658006419DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				225995BB191D1658006419DE /* SecLockTests-Info.plist */,
+				225995BC191D1658006419DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22599590191D1658006419DE /* SecLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225995C3191D1658006419DE /* Build configuration list for PBXNativeTarget "SecLock" */;
+			buildPhases = (
+				2259958D191D1658006419DE /* Sources */,
+				2259958E191D1658006419DE /* Frameworks */,
+				2259958F191D1658006419DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecLock;
+			productName = SecLock;
+			productReference = 22599591191D1658006419DE /* SecLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		225995B1191D1658006419DE /* SecLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225995C6191D1658006419DE /* Build configuration list for PBXNativeTarget "SecLockTests" */;
+			buildPhases = (
+				225995AE191D1658006419DE /* Sources */,
+				225995AF191D1658006419DE /* Frameworks */,
+				225995B0191D1658006419DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				225995B8191D1658006419DE /* PBXTargetDependency */,
+			);
+			name = SecLockTests;
+			productName = SecLockTests;
+			productReference = 225995B2191D1658006419DE /* SecLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22599589191D1658006419DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Kloudtek;
+				TargetAttributes = {
+					225995B1191D1658006419DE = {
+						TestTargetID = 22599590191D1658006419DE;
+					};
+				};
+			};
+			buildConfigurationList = 2259958C191D1658006419DE /* Build configuration list for PBXProject "SecLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22599588191D1658006419DE;
+			productRefGroup = 22599592191D1658006419DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22599590191D1658006419DE /* SecLock */,
+				225995B1191D1658006419DE /* SecLockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2259958F191D1658006419DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225995AD191D1658006419DE /* Images.xcassets in Resources */,
+				2259959F191D1658006419DE /* InfoPlist.strings in Resources */,
+				225995A8191D1658006419DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		225995B0191D1658006419DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225995BE191D1658006419DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2259958D191D1658006419DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225995AB191D1658006419DE /* ViewController.m in Sources */,
+				225995A5191D1658006419DE /* AppDelegate.m in Sources */,
+				225995A1191D1658006419DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		225995AE191D1658006419DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225995C0191D1658006419DE /* SecLockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		225995B8191D1658006419DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22599590191D1658006419DE /* SecLock */;
+			targetProxy = 225995B7191D1658006419DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2259959D191D1658006419DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2259959E191D1658006419DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		225995A6191D1658006419DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225995A7191D1658006419DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		225995BC191D1658006419DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225995BD191D1658006419DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		225995C1191D1658006419DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		225995C2191D1658006419DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		225995C4191D1658006419DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecLock/SecLock-Prefix.pch";
+				INFOPLIST_FILE = "SecLock/SecLock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		225995C5191D1658006419DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecLock/SecLock-Prefix.pch";
+				INFOPLIST_FILE = "SecLock/SecLock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		225995C7191D1658006419DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecLock.app/SecLock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecLock/SecLock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SecLockTests/SecLockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		225995C8191D1658006419DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecLock.app/SecLock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecLock/SecLock-Prefix.pch";
+				INFOPLIST_FILE = "SecLockTests/SecLockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2259958C191D1658006419DE /* Build configuration list for PBXProject "SecLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225995C1191D1658006419DE /* Debug */,
+				225995C2191D1658006419DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		225995C3191D1658006419DE /* Build configuration list for PBXNativeTarget "SecLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225995C4191D1658006419DE /* Debug */,
+				225995C5191D1658006419DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		225995C6191D1658006419DE /* Build configuration list for PBXNativeTarget "SecLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225995C7191D1658006419DE /* Debug */,
+				225995C8191D1658006419DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22599589191D1658006419DE /* Project object */;
+}
